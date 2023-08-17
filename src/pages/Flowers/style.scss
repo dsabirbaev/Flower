@@ -1,0 +1,73 @@
+
+
+.intro-slider {
+    background-image: url(https://telegra.ph/file/49822e5aa4f067d0ce936.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+        font-family: RobotoMedium;
+    }
+
+    &__btn {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../../assets/icons/arrow.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 24px;
+            height: 24px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover::after {
+            right: 10px;
+        }
+    }
+}
+
+.intro-card {
+    &:first-child {
+        background-image: url(https://telegra.ph/file/668fd7b92bc734dd1f373.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &:last-child {
+        background-image: url(https://telegra.ph/file/5515dcb89c01171be1a70.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__title {
+        font-family: RobotoMedium;
+    }
+
+    &__text {
+        font-family: InterMedium;
+    }
+
+    &__btn {
+        position: relative;
+        font-family: InterMedium;
+        &::after {
+            content: "";
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-image: url(../../assets/icons/arrow-black.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 24px;
+            height: 24px;
+
+        }
+
+    }
+}

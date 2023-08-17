@@ -1,0 +1,15 @@
+
+
+.footer-copyright{
+   position: relative;
+
+   &::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #AFB1BD;
+    height: 1px;
+    width: 100%;
+}
+}

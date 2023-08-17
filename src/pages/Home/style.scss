@@ -1,0 +1,24 @@
+
+
+
+ .home-intro-slider__btn {
+    position: relative;
+    
+    &::after {
+        content: "";
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(../../assets/icons/arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 24px;
+        height: 24px;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover::after {
+        right: 10px;
+    }
+
+}
