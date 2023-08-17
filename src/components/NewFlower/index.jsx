@@ -20,7 +20,7 @@ const index = () => {
                 </div>
                 <div className='grid grid-cols-4'>
                     {
-                        newflower.map(item => {
+                        newflower?.map(item => {
                             return <Card key={item.id} case={item}/>
                         })
                     }

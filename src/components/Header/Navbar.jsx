@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-center h-[80px]">
+        <nav className="nav flex justify-center h-[80px]">
             <ul className="flex items-center gap-x-[67px] text-[16px]">
                 <li className="list-item">
                     <NavLink to="/flowers" className="hover:opacity-[0.8]">Flowers</NavLink>

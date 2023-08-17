@@ -22,7 +22,7 @@ const index = () => {
                 </div>
                 <div className='grid grid-cols-4'>
                     {
-                        relevant.map(item => {
+                        relevant?.map(item => {
                             return <Card key={item.id} case={item}/>
                         })
                     }

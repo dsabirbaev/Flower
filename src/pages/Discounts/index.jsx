@@ -6,7 +6,7 @@ import "./style.scss";
 
 const index = () => {
     return (
-        <section className='py-[152px]'>
+        <section className='pt-[152px] pb-5'>
             <div className="container">
                 <div className='mb-5'>
                     <Breadcrumb
