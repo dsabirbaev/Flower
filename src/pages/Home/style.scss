@@ -1,7 +1,12 @@
 
 
+.home-intro-slider{
+    background-image: url(https://telegra.ph/file/a1078b848606c33c0fcdd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
- .home-intro-slider__btn {
+.home-intro-slider__btn {
     position: relative;
     
     &::after {

@@ -9,7 +9,7 @@ import "./style.scss";
 import Card from "../../components/UI/Card/Card";
 const index = () => {
     return (
-        <section className="pt-[30px] pb-[100px]">
+        <section className="pt-5 pb-[100px]">
             <div className="container">
                 <div className='flex flex-col'>
                     <div className='mb-5'>
