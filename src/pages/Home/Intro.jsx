@@ -5,7 +5,7 @@ import { Carousel } from 'antd';
 const Intro = () => {
     
     return (
-        <section className='pt-[40px] pb-[79px]'>
+        <section className='pt-[172px] pb-[79px]'>
             <div className="container">
                <div>
                     <Carousel>

@@ -9,7 +9,7 @@ import { Carousel } from 'antd';
 
 const Intro = () => {
     return (
-        <section className="pt-5 pb-[47px]">
+        <section className="pt-[152px] pb-[47px]">
             <div className="container">
             <div className='mb-5'>
                 <Breadcrumb
