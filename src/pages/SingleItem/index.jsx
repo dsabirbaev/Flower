@@ -50,7 +50,8 @@ const index = () => {
     let arr = [...newflower, ...relevant, ...plants];
     let flower = arr.filter(item => item.id == id)
     
-   
+    const isLink = flower.every(item => item.path === "flowers");
+    
 
 
     return (
@@ -63,7 +64,7 @@ const index = () => {
                                 title: <Link to="/">Home</Link>
                             },
                             {
-                                title:<Link to="/flowers">All Flowers</Link>
+                                title: isLink ? (<Link to="/flowers">All Flowers</Link>) : (<Link to="/plants">Plants</Link>)
                             },
                             {
                                 title: `${flower.map(item => item.title)}`,
