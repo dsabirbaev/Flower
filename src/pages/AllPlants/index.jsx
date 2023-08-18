@@ -30,6 +30,8 @@ const items = [
     }
 ];
 const index = () => {
+
+    
     return (
         <section className="pt-[152px] pb-[100px]">
             <div className="container">

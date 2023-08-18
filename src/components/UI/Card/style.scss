@@ -1,0 +1,10 @@
+
+.card {
+    &-arrow{
+        display: none;
+    }
+   
+    &:hover span{
+        display: flex;
+    }
+}

@@ -49,7 +49,8 @@ const index = () => {
 
     let arr = [...newflower, ...relevant, ...plants];
     let flower = arr.filter(item => item.id == id)
-
+    
+   
 
 
     return (
@@ -62,7 +63,7 @@ const index = () => {
                                 title: <Link to="/">Home</Link>
                             },
                             {
-                                title: <Link to="/flowers">All flowers</Link>
+                                title:<Link to="/flowers">All Flowers</Link>
                             },
                             {
                                 title: `${flower.map(item => item.title)}`,
@@ -117,13 +118,13 @@ const index = () => {
                                     <p className='text-[16px] mb-[20px]'>Color:</p>
 
                                     <div className='flex gap-[20px] mb-[54px]'>
-                                        <div className='grey w-[36px] h-[36px] bg-[#F0F0F5] rounded-full cursor-pointer focus:border-2 focus:border-blue-700'>
+                                        <div className='grey w-[36px] h-[36px] bg-[#F0F0F5] rounded-full cursor-pointer'>
                                         </div>
 
-                                        <div className='grey w-[36px] h-[36px] bg-[#EE7764] rounded-full cursor-pointer focus:border-2 focus:border-blue-700'>
+                                        <div className='grey circle w-[36px] h-[36px] bg-[#EE7764] rounded-full cursor-pointer'>
                                         </div>
 
-                                        <div className='grey w-[36px] h-[36px] bg-[#FFBC2C] rounded-full cursor-pointer focus:border-2 focus:border-blue-700'>
+                                        <div className='grey w-[36px] h-[36px] bg-[#FFBC2C] rounded-full cursor-pointer'>
                                         </div>
                                     </div>
 
